@@ -14,6 +14,7 @@ alias inst='sudo pacman -S'
 alias clone='cd ~/downloads/clones/ && git clone '
 alias bl='brightnessctl set'
 alias music='mocp -T nightshade'
+alias disks='lsblk'
 
 alias v='sudo vim'
 
@@ -25,6 +26,7 @@ alias refresh='clear && source ~/.bashrc'
 alias i3config='vim ~/.config/i3/config'
 
 alias sn='shutdown now'
+
 
 PS1='[\u@\h \W]\$ '
 
